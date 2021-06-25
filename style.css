@@ -1,0 +1,81 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #0f0f0f;
+  font-family: "Mate SC", serif;
+}
+
+header {
+  display: grid;
+  grid: auto / 5rem auto;
+  gap: 10rem;
+  height: 18%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+#menu-topo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#menu-lateral {
+  display: grid;
+  gap: 2rem;
+}
+
+#navegacao-lateral {
+  width: 4rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#reliquia-simbolo {
+  height: 5rem;
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+#reliquia-simbolo-img {
+  height: 100%;
+}
+
+#sessao-inicio {
+  height: 82%;
+}
+
+.container {
+  max-width: 1350px;
+  height: 100vh;
+  margin: auto;
+}
+
+.menu-item {
+  display: inline;
+  margin-right: 3rem;
+}
+
+.cor-ouro {
+  color: #b4a288;
+}
+
+.transicao-tamanho {
+  transition: 0.8s all;
+}
+
+.transicao-tamanho:hover {
+  transform: scale(1.1);
+}
+
+.numero-menu {
+  font-size: 1.8rem;
+}
